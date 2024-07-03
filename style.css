@@ -525,3 +525,181 @@ html,body{
     }
 
 }
+
+/* gulsan */
+
+@font-face {
+    font-family: oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: playwrite;
+    src: url(PlaywriteNZ-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: playwritevn;
+    src: url(PlaywriteVN-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: dance;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+.s1{
+    
+    width: 100%;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(4px);
+}
+@font-face{
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: goti;
+    src: url(CarroisGothic-Regular.ttf);
+}
+.txt h6{
+    color: transparent;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzmsGYi6KonqzUJcEHxChoztRa6ryiPtlBNb1iT_pHrBvTtZ5aYjMwe9QKsRhWAP-iuc&usqp=CAU);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+@font-face {
+    font-family: poppin;
+    src: url(Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: plu;
+    src: url(PlaywriteITModerna-VariableFont_wght.ttf);
+}
+.gola{
+    box-shadow: 10px 0px 100px 5px rgba(255, 0, 0, 0.476);
+}
+@font-face {
+    font-family: anton;
+    src: url(Anton-Regular.ttf);
+}
+@font-face {
+    font-family: marker;
+    src: url(PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: chewy;
+    src: url(Chewy-Regular.ttf);
+}
+.ton{
+    background: yellow;
+    border-radius: 23px;
+    padding: 12px 12px;
+    z-index:1 ;
+    overflow: hidden;
+}
+
+.ton::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #A5D509;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: 1s all ease ;
+}
+.ton:hover::before{
+transform: translateX(0%);
+width: 100%;
+height: 167px;
+}
+.ton:hover{
+    cursor: pointer;
+color: #D61522;
+background-color: white;
+
+}
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: noto;
+    src: url(NotoSans-VariableFont_wdth\,wght.ttf);
+}
+.glass {
+    background-color: rgba(0, 255, 13, 0.292);
+    backdrop-filter: blur white;
+    -webkit-backdrop-filter: blur(10px rgba(255, 255, 255, 0.852));
+}
+@font-face {
+    font-family: pt;
+    src: url(PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: cad;
+    src: url(CedarvilleCursive-Regular.ttf);
+}
+@font-face {
+    font-family: karela;
+    src: url(Kurale-Regular.ttf);
+}
+.sb2:hover{
+    cursor: pointer;
+    font-family: karela;
+transition: 1.2s;
+}
+.b4{
+    border-color: black;
+    overflow: hidden;
+position: relative;
+transition: .5s all ease;
+z-index: 1;
+
+}
+.b4:hover{
+    color: red;
+    border-color: white;
+}
+.b4::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-20%) translateY(-40%) scale(0);
+    transition: 1s all ease;
+    border-radius: 50%;
+}
+.b4:hover::before{
+    
+    background-color: black;
+    transform:   translateX(-20%) translateY(-40%) scale(100%) ;
+}
+    .right{
+        
+    background-color: rgba(255, 0, 144, 0.402);
+    backdrop-filter: blur white;
+    -webkit-backdrop-filter: blur(10px rgba(255, 255, 255, 0.852));
+
+    }
+    .left{
+            
+    background-color: rgba(255, 0, 144, 0.402);
+    backdrop-filter: blur white;
+    -webkit-backdrop-filter: blur(10px rgba(255, 255, 255, 0.852));
+
+    }
+    @font-face {
+        font-family: var;
+        src: url(VarelaRound-Regular.ttf);
+    }
+    .tu{
+        padding: 23px;
+    }
+    .tu:hover{
+        transition: 2s;
+    }
