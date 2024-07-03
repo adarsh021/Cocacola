@@ -7,3 +7,521 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+
+#cardcontenner{
+    height: 60vmax;
+    width: 100vmax;
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#contener{
+    height: 48vmax;
+    width: 90vmax;
+    padding: 3vmax;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#card1{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid black;
+    
+    overflow: hidden;
+   
+
+}
+
+
+#card1 button{
+    width: 100%;
+    height: 6vmax;
+    padding: 24px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card1 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+
+
+#card2{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px solid black
+
+}
+#card2 img{
+    height: 14vmax;
+    width: 23.5vmax;
+    margin: 10px;
+    border-radius: 25px;
+}
+#card2 button{
+    width: 100%;
+    
+    padding: 21px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card2 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+
+#card3{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px solid black
+
+}
+#card3 button{
+    width: 100%;
+    
+    padding: 21px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card3 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+#card3 img{
+    height: 14vmax;
+    width: 23.5vmax;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#card4{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px solid black
+
+}
+#card4 button{
+    width: 100%;
+    
+    padding: 21px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card4 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+
+#card4 img{
+    height: 14vmax;
+    width: 23.5vmax;
+    margin: 10px;
+    border-radius: 25px;
+}
+#card5{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px solid black
+
+}
+#card5 button{
+    width: 100%;
+    
+    padding: 21px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card5 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+#card5 img{
+    height: 14vmax;
+    width: 23.5vmax;
+    margin: 10px;
+    border-radius: 25px;
+}
+#card6{
+    height: 20vmax;
+    width: 25vmax;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px solid black
+
+}
+#card6 button{
+    width: 100%;
+   
+    padding: 21px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+#card6 button:hover{
+    background-color:lightseagreen;
+    color: #fff;
+}
+#card6 img{
+    height: 14vmax;
+    width: 23.5vmax;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+/* futtor */
+
+
+
+#futtor{
+    
+    margin-top: 5vmax;
+    height: 50vmax;
+    width: 100vmax;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+
+#home{
+    height: 40vmax;
+    width: 80vmax;
+    
+}
+
+#nav{
+    
+    height: 8vmax;
+    width: 80vmax;
+    display: flex;
+    justify-content: space-between;
+}
+#home #nav img{
+    height: 40px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+#home #nav a{
+    height: 40px;
+    width: 180px;
+    padding: 7px 20px;
+    margin-top: 40px;
+    display: flex;
+    gap: 7px;
+    border-radius:20px;
+    border: 1px solid white;
+}
+
+.line{
+    height: 1px;
+    width: 80vmax;
+    background-color: white;
+}
+#futtor #home #contener{
+    height: 25vmax;
+    width: 80vmax;    
+    display: flex;
+}
+
+#futtor #home #contener .card{
+    height: 22vmax;
+    width: 75vmax;
+    display: flex;
+
+}
+#futtor #home #contener .card .child1{
+    height: 22vmax;
+    width: 18vmax;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    
+    
+}
+#futtor #home #contener .card .child1 h1{
+     margin-bottom: 15px;
+     font-weight: 20px;
+}
+#futtor #home #contener .card #child4{
+    height: 22vmax;
+    width: 25vmax;   
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+
+}
+#futtor #home  #paragraph{
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+@media (max-width:600px) {
+    #cardcontenner{
+        height: 85vmax;
+        width: 62vmax;
+        
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    #contener{
+        height: 80vmax;
+        width: 90vmax;
+        padding: 3vmax;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    #card1{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    
+    #card1 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card1 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card1 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+    #card2{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    #card2 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card2 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card2 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+    #card3{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    #card3 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card3 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card3 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+    #card4{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    #card4 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card4 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card4 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+    #card5{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    #card5 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card5 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card5 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+    #card6{
+        height: 20vmax;
+        width: 25vmax;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border:1px solid black
+    
+    }
+    #card6 button{
+        width: 100%;
+        height: 4vmax;
+        padding:  0;
+        background-color: transparent;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: #747474;
+        border-top: 1px solid #ddd;
+        transition: all ease 0.5s;
+    }
+    #card6 button:hover{
+        background-color:lightseagreen;
+        color: #fff;
+    }
+
+    #card6 img{
+        height: 14vmax;
+        width: 23.5vmax;
+        margin: 5px;
+        border-radius: 25px;
+    }
+
+}
